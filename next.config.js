@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  trailingSlash: true,
+  // Remove static export - Vercel handles Next.js natively
   images: {
     unoptimized: true,
   },
